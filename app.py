@@ -125,7 +125,7 @@ if st.button(
         "area_type": [area_type],
         "availability": [availability],
         "location": [location],
-        "size": [size],
+        "bhk": [bhk],
         "society": [society],
         "total_sqft": [total_sqft],
         "bath": [bath],
