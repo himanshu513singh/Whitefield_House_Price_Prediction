@@ -136,24 +136,6 @@ if st.button(
         input_data
     )[0]
 
-    st.success(
-        "Prediction completed successfully!"
-    )
-
-    st.metric(
-        label="Estimated House Price",
-        value=f"₹ {prediction:.2f} Lakhs"
-    )
-
-
-
-    # Make prediction
-
-    prediction = model.predict(
-        input_data
-    )[0]
-
-
     # ========================================================
     # DISPLAY RESULT
     # ========================================================
